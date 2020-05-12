@@ -1,0 +1,11 @@
+
+#S(NODE
+   :NAME OBJECT
+   :TRUE #S(NODE
+            :NAME COMPUTER
+            :TRUE NIL
+            :FALSE #S(NODE
+                      :NAME SPEAKER
+                      :TRUE NIL
+                      :FALSE #S(NODE :NAME CUP :TRUE NIL :FALSE NIL)))
+   :FALSE #S(NODE :NAME VEGETABLE :TRUE NIL :FALSE NIL)) 
